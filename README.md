@@ -13,5 +13,9 @@ Dealing with a skewed datset, We'll need to oversample or undersample the datase
 In this project, we oversampled original skewed training data using SMOTE in imbalance during cross validation process. And developed several machine learning models (Logistic Regression, Random Forest) with tuned hyperparameters that achieved trade-off between precision and recall to help classify valid and fraudulent transactions.
 ![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/report.png)
 
+Logistic Regression:
+![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/ConfusionMatrix_lr.jpg)
+
+Random Forest:
 ![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/ConfusionMatrix_rf.jpg)
 
