@@ -35,7 +35,8 @@ weighted avg       1.00      0.97      0.98     56962
 weighted avg       1.00      1.00      1.00     56962
 
 
-Random Forest:
+         Random Forest:
+
 ![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/ConfusionMatrix_rf.jpg)
 ------------------------------------------------
 Click here https://github.com/MengSunS/Credit-Card-Fraud-Detection-/blob/master/CreditCardFraudDetection.ipynb to see the implementation.
