@@ -12,8 +12,28 @@ Dealing with a skewed datset, We'll need to oversample or undersample the datase
 
 In this project, we oversampled original skewed training data using SMOTE in imbalance during cross validation process. And developed several machine learning models (Logistic Regression, Random Forest) with tuned hyperparameters that achieved trade-off between precision and recall to help classify valid and fraudulent transactions.
 
-Logistic Regression:
-![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/ConfusionMatrix_lr.jpg)
+------------------------------------------------------------
+[Logistic Regression:]
+              precision    recall  f1-score   support
+
+       Valid       1.00      0.97      0.98     56864
+       Fraud       0.05      0.93      0.10        98
+
+   micro avg       0.97      0.97      0.97     56962
+   macro avg       0.53      0.95      0.54     56962
+weighted avg       1.00      0.97      0.98     56962
+
+------------------------------------------------------------
+[Random Forest:]
+              precision    recall  f1-score   support
+
+       Valid       1.00      1.00      1.00     56864
+       Fraud       0.87      0.84      0.85        98
+
+   micro avg       1.00      1.00      1.00     56962
+   macro avg       0.94      0.92      0.93     56962
+weighted avg       1.00      1.00      1.00     56962
+
 
 Random Forest:
 ![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/ConfusionMatrix_rf.jpg)
