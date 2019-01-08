@@ -2,7 +2,11 @@
 
 This dataset contains credit card transactions over a two day collection period in September 2013 by European cardholders. Dataset is avaialbe on Kaggle. 
 
-This credit card transaction dataset is highly skewed, with most transactions valid and only a few are fraudulent. In this project, we'll need to identify the minority class (fraudulent transactions). The features V1-V28 are the result of a principal components analysis (PCA) transformation. This transformation was applied by the original authors to maintain confidentiality of sensitive information. Additionally the dataset contains 'Time' and 'Amount', which were not transformed by PCA. 
+This credit card transaction dataset is highly skewed, with most transactions valid and only a few are fraudulent. In this project, we'll need to identify the minority class (fraudulent transactions). 
+
+![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/Imbalance.jpg)
+
+The features V1-V28 are the result of a principal components analysis (PCA) transformation. This transformation was applied by the original authors to maintain confidentiality of sensitive information. Additionally the dataset contains 'Time' and 'Amount', which were not transformed by PCA. 
 
 ![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/Time&Amount.jpg)
 
