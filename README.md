@@ -35,9 +35,8 @@ weighted avg       1.00      1.00      1.00     56962
 
 
          Random Forest:
-[Feature Importance]
 ![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/ConfusionMatrix_rf.jpg)
-Feature importance:
+[Feature Importance]
 ![image](https://github.com/MengSunS/Credit-Card-Fraud-Detection-/raw/master/feature_importance.jpg)
 
 ------------------------------------------------
